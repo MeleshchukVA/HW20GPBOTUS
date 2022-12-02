@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name         = "HW20GPBOTUS"
-  spec.version      = "0.0.6"
+  spec.name         = "MeleshchukHomework"
+  spec.version      = "0.0.7"
   spec.summary      = "HW 20 by Vladimir Meleshchuk"
 
   spec.description  = <<-DESC
