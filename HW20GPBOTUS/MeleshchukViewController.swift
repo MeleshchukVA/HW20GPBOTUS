@@ -27,12 +27,11 @@ public class MeleshchukViewController: UIViewController {
             make.leading.equalToSuperview().offset(32.0)
         }
         
-        let currentBundle = Bundle(for: MeleshchukViewController.self)
         view.backgroundColor = .systemRed
     }
 }
 
-extension MeleshchukViewController: HasOtusHomeworkView {
+public extension MeleshchukViewController: HasOtusHomeworkView {
     
     public var squareView: UIView? {
         return view
