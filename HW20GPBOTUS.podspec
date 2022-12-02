@@ -7,14 +7,13 @@
 #
 
 Pod::Spec.new do |spec|
-
   spec.name         = "HW20GPBOTUS"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "HW 20 by Vladimir Meleshchuk"
 
   spec.description  = <<-DESC
-  		This is the lesson project for OTUS Homework 20
-  			DESC
+	This is the demo lesson project for OTUS Homework
+                   DESC
 
   spec.homepage     = "https://github.com/MeleshchukVA/HW20GPBOTUS"
   spec.license      = { :type => "MIT" }
@@ -29,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "HW20GPBOTUS/**/*.{swift,h,m}"
   spec.resources = "HW20GPBOTUS/**/*.{pdf,svg,json,jpg,xcassets,storyboard,xib,strings,stringsdict}"
   spec.public_header_files = "HW20GPBOTUS/**/*.{h}"
-  
-  spec.swift_version = "5.0"
+
+  spec.swift_version = "5.0" 
 
 end
