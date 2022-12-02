@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'SnapKit'
   spec.dependency 'OtusHomework'
 
-  spec.source_files  = "HW20GPBOTUS/**/*.{h,m}"
+  spec.source_files  = "HW20GPBOTUS/**/*.{swift,h,m}"
   spec.resources = "HW20GPBOTUS/**/*.{pdf,svg,json,jpg,xcassets,storyboard,xib,strings,stringsdict}"
   spec.public_header_files = "HW20GPBOTUS/**/*.{h}"
   
