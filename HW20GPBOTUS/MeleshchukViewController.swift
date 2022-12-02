@@ -27,6 +27,7 @@ public class MeleshchukViewController: UIViewController {
             make.leading.equalToSuperview().offset(32.0)
         }
         
+        let currentBundle = Bundle(for: MeleshchukViewController.self)
         view.backgroundColor = .systemRed
     }
 }
