@@ -31,7 +31,7 @@ public class MeleshchukViewController: UIViewController {
     }
 }
 
-public extension MeleshchukViewController: HasOtusHomeworkView {
+extension MeleshchukViewController: HasOtusHomeworkView {
     
     public var squareView: UIView? {
         return view
